@@ -62,6 +62,7 @@ div.user-password input {
 
 label {
     font-size: 21px;
+    line-height: 2.4;
 }
 
 form div input {
@@ -83,6 +84,15 @@ button {
 
 button:hover {
     background-color: rgb(167, 127, 79);
+}
+
+h4 {
+    margin-left: 2.6rem;
+}
+
+h4 a {
+    text-decoration: none;
+    color: white;
 }
 
 footer {
