@@ -18,13 +18,15 @@ nav ul.navbar {
    list-style: none;
    gap: 20px;
    color: white;
-   align-items: center;
+   align-items: center;;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     text-align: center;
+    box-sizing: border-box;
+    border-color: black;
 }
 
 h1.title {
@@ -46,11 +48,19 @@ h2 {
     font-size: 40px;
 }
 
+div.user-name input {
+    display: block;
+}
+
+div.user-password input {
+    display: block;
+}
+
 label {
     font-size: 21px;
 }
 
-input {
+form div input {
     width: 70%;
     height: 24px;
 }
